@@ -1,0 +1,19 @@
+<div class="medicos-container">
+  <h2>Médicos</h2>
+  <button type="button" (click)="goToCad()">+ Novo Médico</button>
+
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>Email</th>
+      <th>Especialidade</th>
+    </tr>
+    <tr *ngFor="let medico of medicos">
+      <td>{{ medico.id }}</td>
+      <td>{{ medico.nome }}</td>
+      <td>{{ medico.email }}</td>
+      <td>{{ medico.especialidade }}</td>
+    </tr>
+  </table>
+</div>

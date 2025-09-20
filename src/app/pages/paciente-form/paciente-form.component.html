@@ -1,0 +1,12 @@
+<div class="form-container">
+  <h2>Cadastrar Paciente</h2>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <label>Nome</label>
+    <input type="text" formControlName="nome" />
+
+    <label>Email</label>
+    <input type="email" formControlName="email" />
+
+    <button type="submit" [disabled]="form.invalid">Salvar</button>
+  </form>
+</div>
