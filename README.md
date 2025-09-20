@@ -1,4 +1,4 @@
-# 🏥 Clínica Médica – Sistema Angular
+# 🏥 Clínica Médica – Angular
 
 Pequeno sistema em **Angular** para gerenciamento de **usuários, pacientes e médicos**, feito com **login, rotas protegidas, cadastro e listagem**.  
 Este projeto foi desenvolvido como exercício acadêmico, com dados mockados (sem backend).
@@ -24,9 +24,7 @@ Este projeto foi desenvolvido como exercício acadêmico, com dados mockados (se
 
 - [Angular 17+](https://angular.dev/)
 - TypeScript
-- Standalone Components
 - Reactive Forms
-- CSS customizado (tema azul)
 
 ---
 
@@ -35,8 +33,7 @@ Este projeto foi desenvolvido como exercício acadêmico, com dados mockados (se
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/clinica-medica.git
-cd clinica-medica
+https://github.com/gabriel-afd/clinicaMedicaAngular.git
 ```
 
 ### 2. Instalar as dependências
